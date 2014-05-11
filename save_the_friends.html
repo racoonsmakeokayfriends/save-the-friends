@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript</title>
+    <link rel='stylesheet' type='text/css' href='save_the_friends.css'/>
+    <script type='text/javascript' src='http://code.jquery.com/jquery-2.1.0.min.js'></script>
+    <script type='text/javascript' src='save_the_friends.js'></script>
+  </head>
+  <body>
+    <h1 id='title'>Save the Friends!</h1>
+    <canvas id='a' width='1000' height='500'>
+      No canvas :(
+    </canvas>
+    
+    <!-- start game -->
+    <div class="setup_mode" id="init_game">
+      <p>Happy birthday Deedee! This year I made you a special game
+         of hangman for us to play together :) </p>
+      <button id="init_game_btn">start saving the friends!</button>
+    </div>
+    
+    <!-- start round -->
+    <div class="setup_mode" id="init_round">
+      <div id="init_round_dir"></div>
+      <form>
+        <input type="text" name="phrase_to_guess">
+      </form>
+      <button id="init_round_btn">start the game!</button>
+    </div>
+
+    <!-- game play -->
+    <div id="guess_ui">
+      <h3 id="guess_dir"></h3>
+      <button class='letter' id='A' value='A'>A</button>
+      <button class='letter' id='B' value='B'>B</button>
+      <button class='letter' id='C' value='C'>C</button>
+      <button class='letter' id='D' value='D'>D</button>
+      <button class='letter' id='E' value='E'>E</button>
+      <button class='letter' id='F' value='F'>F</button>
+      <button class='letter' id='G' value='G'>G</button>
+      <button class='letter' id='H' value='H'>H</button>
+      <button class='letter' id='I' value='I'>I</button>
+      <button class='letter' id='J' value='J'>J</button>
+      <button class='letter' id='K' value='K'>K</button>
+      <button class='letter' id='L' value='L'>L</button>
+      <button class='letter' id='M' value='M'>M</button>
+      <button class='letter' id='N' value='N'>N</button>
+      <button class='letter' id='O' value='O'>O</button>
+      <button class='letter' id='P' value='P'>P</button>
+      <button class='letter' id='Q' value='Q'>Q</button>
+      <button class='letter' id='R' value='R'>R</button>
+      <button class='letter' id='S' value='S'>S</button>
+      <button class='letter' id='T' value='T'>T</button>
+      <button class='letter' id='U' value='U'>U</button>
+      <button class='letter' id='V' value='V'>V</button>
+      <button class='letter' id='W' value='W'>W</button>
+      <button class='letter' id='X' value='X'>X</button>
+      <button class='letter' id='Y' value='Y'>Y</button>
+      <button class='letter' id='Z' value='Z'>Z</button>
+    </div>
+    
+    <!-- new round -->
+    <div class="setup_mode" id="new_round">
+        <img src='http://s6.postimg.org/ddxm253ep/ginny.gif'/><br />
+        Would you like to play again? <br /><br />
+        <button id='play_again_yes'>yes</button>
+        <button id='play_again_no'>no</button>
+    </div>
+    
+    <!-- game over -->
+    <div class="setup_mode" id="game_over">
+      <h2>Game Over</h2>
+      <p id='mandy_points'></p>
+      <p id='deedee_points'></p>
+    </div>
+
+    <footer>
+    
+    </footer>
+   
+    
+  </body>
+</html>

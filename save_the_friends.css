@@ -1,0 +1,95 @@
+body {
+    font-family: "Consolas", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #E9E0D6;
+    background-color: #354458;
+}
+
+canvas {
+    border: 6px solid #29ABA4;
+    background-color: #E9E0D6;
+    border-radius: 10px;
+}
+
+#init_round {
+    display: none;
+}
+
+#guess_ui   {
+    display: none;
+}
+
+#new_round {
+    display: none;
+}
+
+#game_over {
+    display: none;   
+}
+
+.setup_mode {
+    position: absolute;
+    border-radius: 25px;
+    top: 150px;
+    left: 400px;
+    right: 400px;
+    bottom: 250px;
+    color: #354458;
+    background-color: #EB7260;
+    padding: 100px;
+    z-index: 100;
+}
+
+input   {
+    margin: 15px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: "Consolas", sans-serif;
+    padding: 10px 23px;
+    background-color: #E9E0D6;
+    color: #354458;
+    cursor: pointer;
+}
+
+#guess_btn  {
+    font-size: 18px;
+    padding: 10px;
+    height: 40px;
+}
+
+.letter    {
+    border: 6px solid #E9E0D6;
+    border-radius: 0px;
+	height: 50px;
+	width: 50px;
+    padding: 0;
+	background-color: #29ABA4;
+	color: #E9E0D6;
+	font-family: "Consolas", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img {
+    width: 200px; /* you can use % */
+    height: auto;
+}
+
+#new_round  {
+    padding: 75px;
+    top: 75px;
+    bottom: 75px;
+    left: 500px;
+    right: 500px;
+}
+/*
+#354458 - dark blue
+#EB7260 - pink
+#E9E0D6 - white
+#29ABA4 - green
+*/
